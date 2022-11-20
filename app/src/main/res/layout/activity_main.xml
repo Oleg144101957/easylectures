@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/camera_image" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvContainer"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:padding="@dimen/padding_small"-->
+<!--        android:drawablePadding="@dimen/padding_small"-->
+<!--        android:background="@color/grey"-->
+<!--        android:drawableTint="@color/black"-->
+<!--        app:drawableTopCompat="@android:drawable/ic_dialog_alert" />-->
+
+</LinearLayout>
